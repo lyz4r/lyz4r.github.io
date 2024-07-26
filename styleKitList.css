@@ -1,0 +1,56 @@
+body{
+    padding-bottom: initial;
+    font-weight: 400;
+}
+
+.header{
+    font-weight: 700;
+}
+
+.kitListHeader{
+    color : #24FF00;
+    font-size: 2vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    top : 27%;
+}
+
+.disclaimer{
+    color: #24FF00;
+    font-weight: 400;
+    width: 50%;
+    position: absolute;
+    top : 39%;
+    left : 10%;
+    text-align: left;
+}
+
+.glasses{ 
+    position: absolute;
+    top: 55%;                         
+}
+
+.t{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.capi{
+    position: absolute;
+    top : 120%;
+}
+
+.panama{
+    position: absolute;
+    top : 195%;
+}
+
+.hat{
+    position: absolute;
+    top: 275%;
+    left : 5%;
+}
