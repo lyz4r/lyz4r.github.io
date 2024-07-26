@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
     background-color: black;
-    font-family: 'B612', sans-serif;
+    font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color : white;
     text-align: center;
+    padding-bottom: 2650px;
 }
 
 /* общее */
@@ -55,21 +56,29 @@ a{
     border-width: 3px;
     border-style: solid;
     position: absolute;
-    top : 70%;
-    left: 10%;
-    width: 50%;
-    height: 23%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-/* уникальное */
+.desc{
+    font-size: 1.6vw; 
+    text-align: left;
+    font-weight: 400;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .btng {
-    font-family: 'IBM Plex Mono', sans-serif;
     background-color: #24FF00;
     border: #000000;
     border-width: 1px;
     border-style: solid;
 }
+
+/* уникальное */
+
+
 
 .btnw {
     background-color: white;
@@ -85,16 +94,6 @@ a{
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.desc{
-    font-family: 'IBM Plex Mono', sans-serif;
-    font-size: 1.6vw; 
-    text-align: left;
-    font-weight: 400;
-    /*position: absolute;
-    top : 75%;
-    left: 5%;
-    width: 1000px;*/
-}
 
 .joinTeam{
     position: absolute;
@@ -104,11 +103,44 @@ a{
     height: 10%;
     width: 20%;
     background-color: #24FF00;
-    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .socNetworks{
     position: absolute;
     top: 89%;             
     right : 10%           
+}
+
+.imageLower{
+    width: 40%;
+    position: absolute;
+    top : 110%;
+    left : 10%;
+}
+
+.imageLower2{
+    width: 35%;
+    position: absolute;
+    top : 170%;
+    right : 10%;
+}
+
+.containerDescUp{
+    top : 70%;
+    left: 10%;
+    width: 52%;
+}
+
+.containerDescDown1{
+    top : 110%;
+    right: 10%;
+    width: 35%;
+    font-weight: 400;
+}
+
+.containerDescDown2{
+    top : 170%;
+    left: 10%;
+    width: 40%;
+    font-weight: 400;
 }
