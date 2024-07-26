@@ -1,0 +1,12 @@
+{
+  "name": "socom-website",
+  "version": "1.0.0",
+  "description": "Socom Airsoft team official website. ",
+  "main": "index.html",
+  "scripts": {
+    "launch": "index.html"
+  },
+  "author": "Ivan Agapov",
+  "license": "ISC",
+  "type": "module"
+}
