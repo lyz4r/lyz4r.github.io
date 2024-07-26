@@ -12,7 +12,7 @@ body{
 /* общее */
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 
@@ -21,8 +21,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    left: 5%;
+    width: 80%;
+    left: 10%;
 }
 
 .header a{
@@ -39,20 +39,26 @@ a{
     justify-content: center;
     align-items: center;  
     position: absolute;
-    top: 50%;             
+    top: 45%;             
     left: 50%;            
-    transform: translate(-50%, -50%);
-    gap: 12.6%;           
+    transform: translate(-50%, -50%) scale(0.89);
+    margin-left: auto;
+    margin-right: auto;
+    gap: 12.6%;
 }
 
-.container{
+.containerDesc{
     display: flex;
     justify-content: center;
     align-items: center; 
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    height: 100vh;
+    position: absolute;
+    top : 70%;
+    left: 10%;
+    width: 50%;
+    height: 23%;
 }
 
 /* уникальное */
@@ -60,27 +66,49 @@ a{
 .btng {
     font-family: 'IBM Plex Mono', sans-serif;
     background-color: #24FF00;
-    opacity: 0.9;
+    border: #000000;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .btnw {
-    background-color: white; 
+    background-color: white;
+    border: #000000;
+    border-width: 1px;
+    border-style: solid; 
 }
 
 .greenHUD{
     position: absolute;
-    top: 55%;             
+    top: 52%;             
     left: 50%;            
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .desc{
     font-family: 'IBM Plex Mono', sans-serif;
-    font-size: 32px;
+    font-size: 1.6vw; 
     text-align: left;
     font-weight: 400;
-    position: absolute;
+    /*position: absolute;
     top : 75%;
     left: 5%;
-    width: 1000px;
+    width: 1000px;*/
+}
+
+.joinTeam{
+    position: absolute;
+    font-size: 1.8vw;
+    top : 75%;
+    right: 10%;
+    height: 10%;
+    width: 20%;
+    background-color: #24FF00;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.socNetworks{
+    position: absolute;
+    top: 89%;             
+    right : 10%           
 }
