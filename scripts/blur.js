@@ -9,9 +9,9 @@ function addBlur(button){
 
 document.querySelectorAll(".btnw").forEach(button => addBlur(button));
 document.querySelectorAll(".btng").forEach(button => addBlur(button));
-document.querySelectorAll(".joinTeam").forEach(button => addBlur(button));
 document.querySelectorAll(".logo").forEach(button => addBlur(button));
 if (window.location.pathname == "/socom-website/index.html"){
     console.log("fayno");
     document.querySelectorAll(".socNetworks").forEach(button => addBlur(button));
+    document.querySelectorAll(".joinTeam").forEach(button => addBlur(button));
 }
