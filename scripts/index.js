@@ -1,4 +1,4 @@
-//https://discord.gg/2jUJFmaJmu
+
 
 const vk = document.querySelector(".socNetworks");
 vk.addEventListener("click", () => {

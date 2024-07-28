@@ -1,56 +1,66 @@
 body{
-    padding-bottom: initial;
     font-weight: 400;
+    padding-bottom: initial;
 }
 
 .header{
     font-weight: 700;
 }
 
+.t{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding-top: 10%;
+    padding-right: 10%;
+    margin-bottom: 20px;
+
+}
+
 .kitListHeader{
     color : #24FF00;
     font-size: 2vw;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    left: 50%;
-    top : 28%;
+    margin-top: 5%;
 }
 
 .disclaimer{
     color: #24FF00;
     font-weight: 400;
+    font-size: 1.5vw;
     width: 50%;
-    position: absolute;
-    top : 39%;
-    left : 10%;
+    position: relative;
     text-align: left;
+    margin-top: 5%;
 }
 
-.glasses{ 
-    position: absolute;
-    top: 55%;                         
+.firstInfo{
+    margin-top: 5%;
 }
 
-.t{
-    margin-left: 10%;
-    margin-right: 10%;
+.info{ 
+    border: #24FF00;
+    border-width: 3px;
+    border-style: solid;
+    height: auto;
+    padding-top: 3%;
+}
+
+.infoText{
+    font-size: 16px; 
     text-align: left;
+    font-weight: 400;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.capi{
-    position: absolute;
-    top : 120%;
-}
-
-.panama{
-    position: absolute;
-    top : 195%;
-}
-
-.hat{
-    position: absolute;
-    top: 275%;
-    left : 5%;
+.images{
+    text-align: center;
+    display: table;
+    margin: auto;
+    padding-bottom: 3%;
+    border-spacing: 10px;
+    width: 30%;
 }
