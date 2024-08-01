@@ -27,3 +27,7 @@ if (window.location.pathname == "/socom-website/index.html"){
     });
 }
 
+if (window.location.pathname == "/socom-website/questionary.html"){
+    console.log("quiz was recognised");
+    addBlur(document.querySelector(".submit"));
+}

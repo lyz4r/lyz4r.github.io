@@ -1,0 +1,39 @@
+body{
+    padding-bottom: initial;
+}
+
+.quizBox{
+    margin-left: 25%;
+    padding-top: 10%;
+    text-align: left;
+}
+
+.quizBox input{
+    border: 2px solid #24FF00;
+    width: 25%;
+}
+
+.quizBox textarea{
+    border: 2px solid #24FF00;
+    max-width: 35%;
+}
+
+.submit{
+    position: absolute;
+    top : 90%;
+    right : 25%;
+    width: 15%;
+    height: 5%;
+    
+    font-size: 1.4vw;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 700;
+    background-color: #24FF00;
+}
+
+.needsYou{
+    position: absolute;
+    width: 22%;
+    top : 12vw;
+    right : 25%;
+}
