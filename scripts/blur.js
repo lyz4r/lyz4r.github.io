@@ -10,6 +10,7 @@ function addBlur(button){
 document.querySelectorAll(".btnw").forEach(button => addBlur(button));
 document.querySelectorAll(".btng").forEach(button => addBlur(button));
 document.querySelectorAll(".logo").forEach(button => addBlur(button));
+
 if (window.location.pathname == "/index.html"){
     console.log("main page was recognised");
     document.querySelectorAll(".socNetworks").forEach(button => addBlur(button));
@@ -26,6 +27,7 @@ if (window.location.pathname == "/index.html"){
         );
     });
 }
+
 
 if (window.location.pathname == "/questionary.html"){
     console.log("quiz was recognised");

@@ -5,7 +5,7 @@ logo.addEventListener("click", () => {
     window.location.href = "./index.html";
 })
 
-if (window.location.pathname == "/socom-website/index.html") {
+if (window.location.pathname == "/index.html") {
     document.querySelector(".aboutUs").addEventListener("click", () => {
         event.preventDefault();
         console.log("success");
