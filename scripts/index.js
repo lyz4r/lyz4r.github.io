@@ -1,4 +1,4 @@
-
+import { addBlur } from "./blur";
 
 const vk = document.querySelector(".socNetworks");
 vk.addEventListener("click", () => {
