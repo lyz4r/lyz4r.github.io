@@ -76,12 +76,22 @@ a{
 
 /* уникальное */
 
+.joinTeam{
+    position: absolute;
+    font-size: 1.8vw;
+    top : 75%;
+    right: 10%;
+    height: auto;
+    width: 20%;
+    background-color: #24FF00;
+}
+
 .astolfo{
     position: absolute;
     font-size: 1.8vw;
     top : 75%;
     right: 10%;
-    height: 10%;
+    height: auto;
     width: 20%;
 }
 
