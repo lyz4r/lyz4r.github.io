@@ -39,13 +39,13 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;  
-    position: absolute;
-    top: 45%;             
-    left: 50%;            
-    transform: translate(-50%, -50%) scale(0.89);
+    position: relative;
+    padding-top: 12%;
+    /*transform: translate(-50%, -50%) /*scale(0.89)*/;
     margin-left: auto;
     margin-right: auto;
     gap: 12.6%;
+    width: 1vw;
 }
 
 .containerDesc{
@@ -104,10 +104,10 @@ a{
 }
 
 .greenHUD{
-    position: absolute;
-    top: 52%;             
-    left: 50%;            
-    transform: translate(-50%, -50%) scale(0.9);
+    position: relative;
+    margin-left: auto;            
+    margin-right: auto;
+    margin-top: -22%;
 }
 
 
@@ -116,7 +116,7 @@ a{
     font-size: 1.8vw;
     top : 75%;
     right: 10%;
-    height: 10%;
+    height: auto;
     width: 20%;
     background-color: #24FF00;
 }

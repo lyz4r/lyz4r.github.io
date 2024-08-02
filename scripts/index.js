@@ -1,5 +1,4 @@
 
-
 const vk = document.querySelector(".socNetworks");
 vk.addEventListener("click", () => {
     window.location.href = "https://vk.com/socom_airsoft_team";
