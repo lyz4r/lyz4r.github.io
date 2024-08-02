@@ -1,4 +1,4 @@
-export function addBlur(button){
+function addBlur(button){
     button.addEventListener("mouseover", ()=>{
         event.target.classList.add("blur");
     })
@@ -6,6 +6,8 @@ export function addBlur(button){
         event.target.classList.remove("blur");
     })
 }
+
+export { addBlur };
 
 document.querySelectorAll(".btnw").forEach(button => addBlur(button));
 document.querySelectorAll(".btng").forEach(button => addBlur(button));
