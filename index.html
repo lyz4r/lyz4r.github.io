@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOCOM</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleMobile.css">
 
 </head>
-
+<!-- TODO: зафигачить анимацию типа наводишься на картинку и такой ныыыыыыыааааааааа худ появляется-->
 <body>
     <!-- начало верхней секции -->
 
@@ -23,10 +23,13 @@
 
     <main class="main">
 
-    <div class="mainImages">
-        <img src="./images/middleImage.jpg" class="middleImage">
-    </div>
-
+        <div class="mainImages">
+            <img src="./images/leftImage.png" class="leftImage hideOnMobile">
+            <img src="./images/middleImage.jpg" class="middleImage">
+            <img src="./images/rightImage.jpg" class="rightImage hideOnMobile">
+        </div>
+    
+        <img src="./images/greenHUD.svg" class="greenHUD hideOnMobile">
 
 
     <div class="containerDesc containerDescUp">
@@ -43,14 +46,14 @@
     
 
     <img src="./images/vkHref.svg" class="socNetworks" id="vk">
-    <img src="./images/dsHref.svg" class="socNetworks" style="right: 15%" id="ds">
+    <img src="./images/dsHref.svg" class="socNetworks" id="ds">
     
     <!-- начало нижней секции -->
 
     <img src="./images/imageDown1.jpg" class="imageLower" >
 
     <div class="containerDesc containerDescDown1">
-        <div class="desc" style="font-size: 1vw;">да мы и так ахуенные
+        <div class="desc">да мы и так ахуенные
         </div>
     </div>
 
@@ -59,7 +62,7 @@
     <img src="./images/imageDown2.jpg" class="imageLower2">
 
     <div class="containerDesc containerDescDown2">
-        <div class="desc" style="font-size: 1vw;">1. Мы - команда, к которой не было претензий со дня создания!<br>
+        <div class="desc">1. Мы - команда, к которой не было претензий со дня создания!<br>
         2. Используем форму и снаряжение в цвете мультикам.<br>
         3. Привода (страйкбольное оружие): зарубежная М-серия.<br>
          Рекомендуется иметь пару приводов: один покороче - для зданий, и второй – на твое личное усмотрение.

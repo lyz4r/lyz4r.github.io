@@ -7,10 +7,15 @@ body{
     font-size: 3vh;
     color : white;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 140%;
 }
 
 /* общее */
+
+.hideOnMobile{
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: #000000;
@@ -18,16 +23,12 @@ a{
 
 
 .header {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    left: 10%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header a{
-    width : 14vw;
     height : 7vh;
     display: flex;
     text-align: center;
@@ -48,16 +49,17 @@ a{
 }
 
 .containerDesc{
-    display: flex;
+    display: table-cell;
     justify-content: center;
     align-items: center; 
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    position: absolute;
+    position: relative;
     height: auto;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .desc{
@@ -75,16 +77,18 @@ a{
 /* уникальное */
 
 .joinTeam{
-    position: absolute;
-    font-size: 1.8vw;
-    top : 75%;
-    right: 10%;
-    height: auto;
-    width: 20%;
+    margin-top: 5%;
+    position: relative;
     background-color: #24FF00;
+    height : 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .astolfo{
+    display: none;
     position: absolute;
     font-size: 1.8vw;
     top : 75%;
@@ -94,7 +98,7 @@ a{
 }
 
 .logo{
-    width: 14.88%;
+    width: 45%;
 }
 
 .btng {
@@ -119,53 +123,33 @@ a{
 }
 
 
-.joinTeam{
-    position: absolute;
-    font-size: 1.8vw;
-    top : 75%;
-    right: 10%;
-    height: auto;
-    width: 20%;
-    background-color: #24FF00;
-}
 
 .socNetworks{
-    position: absolute;
-    top: 89%;             
-    right : 10%           
+    position: relative;
+    margin : 10%;
 }
 
 .imageLower{
-    width: 40%;
-    position: absolute;
-    top : 110%;
-    left : 10%;
+    width: 80%;
+    position: relative;
+    padding-bottom: 10%;
 }
 
 .imageLower2{
-    width: 35%;
-    position: absolute;
-    top : 170%;
-    right : 10%;
+    width: 80%;
+    position: relative;
+    padding: 10%;
 }
 
-.containerDescUp{
-    top : 70%;
-    left: 10%;
-    width: 52%;
-}
+
 
 .containerDescDown1{
-    top : 110%;
-    right: 10%;
-    width: 35%;
+
     font-weight: 400;
 }
 
 .containerDescDown2{
-    top : 170%;
-    left: 10%;
-    width: 40%;
+
     font-weight: 400;
 }
 
