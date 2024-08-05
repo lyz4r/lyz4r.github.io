@@ -36,7 +36,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         const styleLink2 = document.createElement('link');
         styleLink2.rel = 'stylesheet';
         styleLink2.href = './styles/styleKitList.css';
-        document.head.appendChild(mobileStyleLink2);
+        document.head.appendChild(styleLink2);
+        console.log("kit-list styles were loaded");
     }
 
     if (window.location.pathname == "/questionary.html") {
@@ -44,5 +45,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         styleLink3.rel = 'stylesheet';
         styleLink3.href = './styles/styleQuiz.css';
         document.head.appendChild(styleLink3);
+        console.log("questionary styles were loaded");
     }
 }

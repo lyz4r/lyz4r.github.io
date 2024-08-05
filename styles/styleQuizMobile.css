@@ -18,7 +18,7 @@ body{
     max-width: 70%;
 }
 
-.submit{
+.send{
     position: relative;
     margin-top: 10%;
     color: black;
@@ -30,6 +30,6 @@ body{
 
 .needsYou{
     position: relative;
-    width: 80%;
+    width: 80vw;
     margin-top: 10%;
 }
