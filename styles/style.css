@@ -8,7 +8,7 @@ body{
     color : white;
     text-align: left;
     padding-bottom: 5%;
-    max-width: fit-content;
+
 }
 
 /* общее */
@@ -90,6 +90,10 @@ li a{
 
 /* уникальное */
 
+.middleImage{
+    opacity: 0.2;
+}
+
 .ds{
     margin-right: 5%;
 }
@@ -134,10 +138,12 @@ li a{
 }
 
 .greenHUD{
-
-    margin-left: auto;            
-    margin-right: auto;
-    margin-top: -22%;
+    position: absolute;
+    top: 25vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
 }
 
 
