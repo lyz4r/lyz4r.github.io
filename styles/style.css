@@ -6,8 +6,8 @@ body{
     font-weight: 700;
     font-size: 3vh;
     color : white;
-    text-align: center;
-    padding-bottom: 10%;
+    text-align: left;
+    padding-bottom: 5%;
 }
 
 /* общее */
@@ -27,7 +27,7 @@ a{
 }
 
 .header a{
-    width : 14vw;
+    width : 15vw;
     height : 7vh;
     display: flex;
     text-align: center;
@@ -42,7 +42,7 @@ a{
     transform: scale(0.89);
     margin-left: auto;
     margin-right: auto;
-    gap : 7.8%;
+    gap : 2%;
 }
 
 .containerDesc{
@@ -52,10 +52,11 @@ a{
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    position: absolute;
     height: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-indent: 0%;
+    margin-bottom : 3%;
 }
 
 .desc{
@@ -69,6 +70,22 @@ a{
     visibility: hidden;
 }
 
+.t{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* stalker*/
+
+.stIm{
+    padding: 4%;
+}
+
+li a{
+    color: #24FF00;
+}
 
 /* уникальное */
 
@@ -78,6 +95,7 @@ a{
 
 .joinTeam{
     position: absolute;
+    text-align: center;
     font-size: 1.8vw;
     top : 75%;
     right: 10%;
@@ -94,6 +112,7 @@ a{
     height: auto;
     width: 20%;
 }
+
 
 .logo{
     width: 14.88%;
@@ -155,6 +174,7 @@ a{
     top : 70%;
     left: 10%;
     width: 52%;
+    position: absolute;
 }
 
 .containerDescDown1{
@@ -162,6 +182,7 @@ a{
     right: 10%;
     width: 35%;
     font-weight: 400;
+    position: absolute;
 }
 
 .containerDescDown2{
@@ -169,6 +190,7 @@ a{
     left: 10%;
     width: 40%;
     font-weight: 400;
+    position: absolute;
 }
 
 .blur{

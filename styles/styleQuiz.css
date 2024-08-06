@@ -4,13 +4,13 @@ body{
 
 .quizBox{
     margin-left: 25%;
-    padding-top: 10%;
     text-align: left;
 }
 
 .quizBox input{
     border: 2px solid #24FF00;
     width: 25%;
+    margin-block-end : -10px; 
 }
 
 .quizBox textarea{
@@ -34,6 +34,6 @@ body{
 .needsYou{
     position: absolute;
     width: 20%;
-    top : 12vw;
+    top : 15vw;
     right : 25%;
 }

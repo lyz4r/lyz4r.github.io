@@ -7,15 +7,7 @@ body{
     font-weight: 700;
 }
 
-.t{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-    padding-top: 10%;
-    padding-right: 10%;
-    margin-bottom: 20px;
 
-}
 
 .kitListHeader{
     color : #24FF00;
@@ -46,10 +38,11 @@ body{
     border-style: solid;
     height: auto;
     padding-top: 3%;
+    margin-top: 5%;
 }
 
 .infoText{
-    font-size: 16px; 
+    font-size: 1.2vw; 
     text-align: left;
     font-weight: 400;
     padding-left: 5%;
