@@ -73,6 +73,15 @@ a{
     visibility: hidden;
 }
 
+/* stalker*/
+
+.stIm{
+    padding: 4%;
+}
+
+li a{
+    color: #24FF00;
+}
 
 /* уникальное */
 
