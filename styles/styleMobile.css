@@ -8,6 +8,7 @@ body{
     color : white;
     text-align: center;
     padding-bottom: 10%;
+    overflow-x: hidden;
 }
 
 /* общее */
@@ -59,7 +60,7 @@ a{
     padding-top: 2%;
     padding-bottom: 2%;
     text-indent: 0%;
-    margin-bottom : 3%;
+    margin-bottom : 4vh;
 }
 
 .desc{
