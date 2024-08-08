@@ -112,6 +112,7 @@ a{
 
 .astolfo{
     position: absolute;
+    text-align: center;
     font-size: 1.8vw;
     top : 75%;
     right: 10%;
