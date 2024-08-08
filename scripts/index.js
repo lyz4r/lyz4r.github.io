@@ -15,16 +15,34 @@ var delayedShow;
 const hud = document.querySelector(".greenHUD");
 const midIm = document.querySelector(".middleImage")
 let flagMove = 0;
+
+
+document.addEventListener("DOMContentLoaded", function(arg) {
+    let c = 0;
+    let load = setInterval(() => {
+
+        c += 0.01;
+        midIm.style.opacity = c;
+        console.log(midIm.style.opacity)
+
+        if (midIm.style.opacity >= 0.5) {
+            clearInterval(load);
+        }
+    }, 20)
+});
+
+
+
 midIm.addEventListener("mouseover", () => {
     if (flag == 0 && flagMove == 0) {
         flag = 1;
 
-        let c = 0.2;
+        let c = 0.5;
         let over = setInterval(() => {
 
             c += 0.01;
             midIm.style.opacity = c;
-            hud.style.opacity = c-0.4;
+            hud.style.opacity = c-0.5;
             console.log(midIm.style.opacity)
 
             if (midIm.style.opacity >= 1) {
@@ -54,9 +72,9 @@ document.addEventListener('mousemove', function (event) {
 
             c -= 0.01;
             midIm.style.opacity = c;
-            hud.style.opacity = c-0.2;
+            hud.style.opacity = c-0.5;
             console.log(midIm.style.opacity);
-            if (midIm.style.opacity <= 0.2) {
+            if (midIm.style.opacity <= 0.5) {
                 
                 console.log("issue there")
                 clearInterval(out);

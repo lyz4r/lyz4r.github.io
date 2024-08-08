@@ -80,8 +80,9 @@ a{
     padding: 4%;
 }
 
-li a{
+.containerDesc a{
     color: #24FF00;
+    text-decoration: underline;
 }
 
 /* уникальное */
