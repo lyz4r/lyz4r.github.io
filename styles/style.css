@@ -7,8 +7,7 @@ body{
     font-size: 3vh;
     color : white;
     text-align: left;
-    padding-bottom: 5%;
-
+    padding-bottom: 2%;
 }
 
 /* общее */
@@ -39,11 +38,8 @@ a{
 .mainImages{
     display: flex;
     justify-content: center;
-    align-items: center;  
     transform: scale(0.89);
-    margin-left: auto;
-    margin-right: auto;
-    gap : 2%;
+    gap : 8%;
 }
 
 .containerDesc{
@@ -53,9 +49,7 @@ a{
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    height: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    height: auto;    
     text-indent: 0%;
     margin-bottom : 3%;
 }
@@ -72,10 +66,14 @@ a{
 }
 
 .t{
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.imageAndDesc{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 /* stalker*/
@@ -110,16 +108,6 @@ a{
     background-color: #24FF00;
 }
 
-.astolfo{
-    position: absolute;
-    text-align: center;
-    font-size: 1.8vw;
-    top : 75%;
-    right: 10%;
-    height: auto;
-    width: 20%;
-}
-
 
 .logo{
     width: 14.88%;
@@ -150,12 +138,7 @@ a{
 
 
 .joinTeam{
-    position: absolute;
     font-size: 1.8vw;
-    top : 75%;
-    right: 10%;
-    height: auto;
-    width: 20%;
     background-color: #24FF00;
 }
 
@@ -165,25 +148,10 @@ a{
     right : 10%           
 }
 
-.imageLower{
-    width: 40%;
-    position: absolute;
-    top : 110%;
-    left : 10%;
-}
-
-.imageLower2{
-    width: 35%;
-    position: absolute;
-    top : 170%;
-    right : 10%;
-}
-
 .containerDescUp{
-    top : 70%;
-    left: 10%;
+    margin-top: 4%;
     width: 52%;
-    position: absolute;
+    position: relative;
 }
 
 .containerDescDown1{
@@ -195,11 +163,10 @@ a{
 }
 
 .containerDescDown2{
-    top : 170%;
-    left: 10%;
     width: 40%;
     font-weight: 400;
-    position: absolute;
+    position: relative;
+    margin-top: 3%;
 }
 
 .blur{
