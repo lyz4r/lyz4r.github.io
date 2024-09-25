@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* upd: да, это говнокод по сути, мне стыдно, честно. меня просто вынудили заниматься вёрсткой, это должен был делать не я, но вообще весь сайт лёг на меня */
+/* upd: пытаюсь исправить это кошмар день 3 */
 body{
     background-color: black;
     font-family: 'IBM Plex Mono', sans-serif;
@@ -8,6 +8,12 @@ body{
     color : white;
     text-align: left;
     padding-bottom: 2%;
+    margin: 0;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* общее */
@@ -16,6 +22,9 @@ a{
     color: #000000;
 }
 
+a:hover{
+    opacity: 0.5;
+}
 
 .header {
     position: relative;
@@ -51,7 +60,6 @@ a{
     border-style: solid;
     height: auto;    
     text-indent: 0%;
-    margin-bottom : 3%;
 }
 
 .desc{
@@ -73,8 +81,14 @@ a{
 .imageAndDesc{
     display: flex;
     justify-content: space-between;
-    
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+/* kit-list сюда добавить */
+
+
 
 /* stalker*/
 
@@ -87,7 +101,7 @@ a{
     text-decoration: underline;
 }
 
-/* уникальное */
+/* единичные элементы */
 
 .middleImage{
     opacity: 0.2;
@@ -113,6 +127,10 @@ a{
     width: 14.88%;
 }
 
+.logo:hover{
+    opacity: 0.5;
+}
+
 .btng {
     background-color: #24FF00;
     border: #000000;
@@ -120,12 +138,14 @@ a{
     border-style: solid;
 }
 
+
 .btnw {
     background-color: white;
     border: #000000;
     border-width: 1px;
     border-style: solid; 
 }
+
 
 .greenHUD{
     position: absolute;
@@ -136,11 +156,11 @@ a{
     pointer-events: none;
 }
 
-
 .joinTeam{
     font-size: 1.8vw;
     background-color: #24FF00;
 }
+
 
 .socNetworks{
     position: absolute;
@@ -148,26 +168,16 @@ a{
     right : 10%           
 }
 
+.socNetworks:hover{
+    opacity: 0.5;
+}
+
 .containerDescUp{
     margin-top: 4%;
-    width: 52%;
+    width: 60%;
     position: relative;
 }
 
-.containerDescDown1{
-    top : 110%;
-    right: 10%;
-    width: 35%;
-    font-weight: 400;
-    position: absolute;
-}
-
-.containerDescDown2{
-    width: 40%;
-    font-weight: 400;
-    position: relative;
-    margin-top: 3%;
-}
 
 .blur{
     opacity: 0.5;
