@@ -4,7 +4,7 @@ body{
     background-color: black;
     font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 2.5vh;
     color : white;
     text-align: left;
     padding-bottom: 2%;
@@ -51,32 +51,19 @@ a:hover{
     gap : 8%;
 }
 
-.containerDesc{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+p{
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    height: auto;    
-    text-indent: 0%;
+    padding: 30px;
+    font-weight: 400;
 }
 
-.desc{
-    text-align: left;
-    font-weight: 400;
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 .hidden{
     visibility: hidden;
 }
 
-.t{
-    text-align: left;
-    margin-bottom: 20px;
-}
 
 .imageAndDesc{
     display: flex;
@@ -88,20 +75,79 @@ a:hover{
 
 /* kit-list сюда добавить */
 
+.images{
+    border: #24FF00;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 50%;
+}
 
+.imgRow{
+    display: flex;
+    justify-content:center;
+    gap: 5%;
+    object-fit: contain;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    border: #24FF00;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+input{
+    border-color: #24FF00;
+    width: 30%;
+}
+
+textarea{
+    border-color: #24FF00;
+    width: 30%;
+}
 
 /* stalker*/
+
+article{
+    display: flex;
+    justify-content: space-around;
+   border: #24FF00;
+    border-width: 3px;
+    border-style: solid;
+    padding: 30px;
+    margin-bottom: 10%;
+}
+
+article p{
+    border-style: hidden;
+}
+    
+li a{
+    color: #24FF00;
+}
 
 .stIm{
     padding: 4%;
 }
 
-.containerDesc a{
-    color: #24FF00;
-    text-decoration: underline;
+
+/* separated elements */
+
+.send{
+    margin-top: 2%;    
+    font-size: 1.4vw;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 700;
+    background-color: #24FF00;
+    width: auto;
 }
 
-/* единичные элементы */
+.send:hover{
+    opacity: 0.5;
+}
 
 .middleImage{
     opacity: 0.2;
@@ -176,9 +222,17 @@ a:hover{
     margin-top: 4%;
     width: 60%;
     position: relative;
+    font-weight: 400;
+    font-size: 3vh;
 }
 
 
 .blur{
     opacity: 0.5;
+}
+
+.needsYou{
+    width: 28%; 
+    margin-left: 15%;
+    object-fit: contain;
 }
