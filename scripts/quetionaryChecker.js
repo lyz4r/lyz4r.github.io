@@ -38,11 +38,5 @@ document.getElementById("formElem").addEventListener("submit", function (e) {
           );
      });
 
-    /*function sendEmail() {
-        Email.send(formData)
-            .then(function () {
-                alert("mail sent successfully")
-            });
-    }
-  });*/
+
 
