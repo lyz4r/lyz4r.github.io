@@ -64,6 +64,9 @@ p{
     visibility: hidden;
 }
 
+.excluded{
+    display: none;
+}
 
 .imageAndDesc{
     display: flex;
@@ -104,6 +107,12 @@ input{
     width: 30%;
 }
 
+input[type="radio"]{
+    width: initial;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
 textarea{
     border-color: #24FF00;
     width: 30%;
@@ -133,8 +142,6 @@ li a{
     padding: 4%;
 }
 
-
-/* separated elements */
 
 .send{
     margin-top: 2%;    
@@ -231,8 +238,9 @@ li a{
     opacity: 0.5;
 }
 
-.needsYou{
-    width: 28%; 
+#needsYou{
+    width: 40%; 
     margin-left: 15%;
     object-fit: contain;
 }
+

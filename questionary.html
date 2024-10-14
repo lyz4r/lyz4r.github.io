@@ -39,28 +39,47 @@
     <main style="display: flex;">
         <form style="width: 50%; " id="formElem">
             <div class="question">
-                <span>Позывной:</span><input type="text" class="nickname"> 
+                <label for="nickname">Позывной*:</label><input type="text" name="nickname" placeholder="Латиницей" required> 
             </div>
            
         <div class="question">
-            <span>Контактный телефон:</span><input type="text" class="phone">
+            <label for="phone">Контактный телефон*:</label><input type="tel" name="phone" placeholder="+79781234567" minlength="11" maxlength="12" required>
         </div>
             
         <div class="question">
-            <span><span style="text-decoration-line: underline;">Кратко</span> о себе:</span>
-            <textarea cols="40" rows="7"></textarea>
+            <label for="selfDesc"><span style="text-decoration-line: underline;">Кратко</span> о себе:</label>
+            <textarea cols="40" rows="7" name="selfDesc"></textarea>
         </div>
             
         <div class="question">
-            <span>Ссылка на страницу в ВК:</span><input type="text" class="vkref">
+            <label for="vkref">Ссылка на страницу в ВК*:</label><input type="text" name="vkref" placeholder="https://vk.com/id0" required>
         </div>
         <div class="question">
-            <span>Из какого ты города?</span><input type="text" class="occupation">
+            <label for="occupation">Из какого ты города?*</label>
+            <select name="occupation" id="occupation" style="border: #24FF00;
+            border-width: 3px;
+            border-style: solid;" required>
+                <option value="Севастополь">Севастополь</option>
+                <option value="Симферополь">Симферополь</option>
+                <option value="Ялта">Ялта</option>
+                <option value="other">Другое</option>
+            </select>
+            
+            <input type="text" name="occupation" class="occupation excluded" placeholder="Напиши сюда">
+           
+        </div>
+        <div class="question">
+            <label for="birthdate">Дата рождения*</label><input type="date" name="birthdate" required>
+        </div>
+        <div class="question">
+            <label for="gearFull">Есть привод М-серии и форма в мультикаме</label><input type="radio" name="gear" value="Есть мка и мультик">
+            <label for="gearHalf">Есть привод не М-серии и/или форма не в мультикаме</label><input type="radio" name="gear" value="Есть калак или/и непонятный камок">
+            <label for="gearAbsent">Нет привода и формы</label><input type="radio" name="gear" value="Нет привода и формы">
         </div>
         <input type="submit" class="send" value="Отправить заявку">
     </form>
    
-    <img src="./images/joinSocom.jpeg" alt="это надо видеть" class="needsYou">
+    <img src="./images/joinSocom.jpeg" alt="это надо видеть" id="needsYou">
 
 
     </main>
@@ -70,6 +89,8 @@
     </footer>
     <script src="./scripts/navigation.js"></script>
     <script src="./scripts/desktopOrMobile.js"></script>
+    <script src="./scripts/quetionaryChecker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 </body>
 
