@@ -27,6 +27,7 @@ a{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .header a{
@@ -42,7 +43,6 @@ a{
     justify-content: center;
     align-items: center;  
     position: relative;
-    padding-top: 12%;
     transform: scale(0.89);
     margin-left: auto;
     margin-right: auto;
@@ -67,25 +67,21 @@ p{
 }
 
 .imageAndDesc{
-    display: flex;
-    justify-content: space-between;
+    display: inline;
     gap: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-/* kit-list сюда добавить */
 
 .images{
     border: #24FF00;
     border-width: 2px;
     border-style: solid;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .imgRow{
-    display: flex;
-    justify-content:center;
     gap: 5%;
     object-fit: contain;
 }
@@ -106,7 +102,7 @@ input{
 }
 
 input[type="radio"]{
-    width: initial;
+    width: inherit;
     margin-left: 10px;
     margin-right: 20px;
 }
@@ -119,9 +115,7 @@ textarea{
 /* stalker*/
 
 article{
-    display: flex;
-    justify-content: space-around;
-   border: #24FF00;
+    border: #24FF00;
     border-width: 3px;
     border-style: solid;
     padding: 30px;
@@ -141,9 +135,11 @@ li a{
 }
 
 
+
+
 .send{
     margin-top: 2%;    
-    font-size: 1.4vw;
+    font-size: 3vh;
     font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 700;
     background-color: #24FF00;
@@ -162,20 +158,9 @@ li a{
     margin-right: 5%;
 }
 
-.joinTeam{
-    position: absolute;
-    text-align: center;
-    font-size: 1.8vw;
-    top : 75%;
-    right: 10%;
-    height: auto;
-    width: 20%;
-    background-color: #24FF00;
-}
-
 
 .logo{
-    width: 14.88%;
+    width: 30%;
 }
 
 .logo:hover{
@@ -207,9 +192,11 @@ li a{
     pointer-events: none;
 }
 
-.joinTeam{
-    font-size: 1.8vw;
+#joinTeam{
+    text-align: center;
+    font-size: 3vh;
     background-color: #24FF00;
+    display: block;
 }
 
 
@@ -223,13 +210,7 @@ li a{
     opacity: 0.5;
 }
 
-.containerDescUp{
-    margin-top: 4%;
-    width: 60%;
-    position: relative;
-    font-weight: 400;
-    font-size: 3vh;
-}
+
 
 
 .blur{
@@ -240,3 +221,12 @@ li a{
     display: none;
 }
 
+form{
+    display: inline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}

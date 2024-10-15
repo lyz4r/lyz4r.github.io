@@ -36,8 +36,8 @@
             <a href="./questionary.html" class="btng">Подать заявку</a>
         </nav>
     </header>
-    <main style="display: flex;">
-        <form style="width: 50%; " id="formElem">
+    <main>
+        <form id="formElem">
             <div class="question">
                 <label for="nickname">Позывной*:</label><input type="text" name="nickname" placeholder="Латиницей" required> 
             </div>
@@ -72,19 +72,19 @@
             <label for="birthdate">Дата рождения*</label><input type="date" name="birthdate" required>
         </div>
         <div class="question">
-            <label for="gearFull">Есть привод М-серии и форма в мультикаме</label><input type="radio" name="gear" value="Есть мка и мультик">
-            <label for="gearHalf">Есть привод не М-серии и/или форма не в мультикаме</label><input type="radio" name="gear" value="Есть калак или/и непонятный камок">
+            <label for="gearFull">Есть привод М-серии и форма в мультикаме</label><input type="radio" name="gear" value="Есть мка и мультик"><br>
+            <label for="gearHalf">Есть привод не М-серии и/или форма не в мультикаме</label><input type="radio" name="gear" value="Есть калак или/и непонятный камок"><br>
             <label for="gearAbsent">Нет привода и формы</label><input type="radio" name="gear" value="Нет привода и формы">
         </div>
         <input type="submit" class="send" value="Отправить заявку">
     </form>
    
-    <img src="./images/joinSocom.jpeg" alt="это надо видеть" id="needsYou">
+    <img src="./images/joinSocom.jpeg" alt="это надо видеть" id="needsYou" class="hideOnMobile">
 
 
     </main>
 
-    <footer style=" display: flex; justify-content: center; margin-top: 2%;">
+    <footer>
         <span>Контактный телефон: <a href="tel:79781488228" style="color: #24FF00;">+79781488228</a> </span>
     </footer>
     <script src="./scripts/navigation.js"></script>

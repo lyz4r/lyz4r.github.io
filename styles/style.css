@@ -14,6 +14,7 @@ body{
 main{
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
 }
 
 /* общее */
@@ -142,6 +143,11 @@ li a{
     padding: 4%;
 }
 
+#imagesBottom{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .send{
     margin-top: 2%;    
@@ -151,6 +157,7 @@ li a{
     background-color: #24FF00;
     width: auto;
 }
+
 
 .send:hover{
     opacity: 0.5;
@@ -164,7 +171,8 @@ li a{
     margin-right: 5%;
 }
 
-.joinTeam{
+#joinTeam{
+    background-color: #24FF00;
     position: absolute;
     text-align: center;
     font-size: 1.8vw;
@@ -209,10 +217,6 @@ li a{
     pointer-events: none;
 }
 
-.joinTeam{
-    font-size: 1.8vw;
-    background-color: #24FF00;
-}
 
 
 .socNetworks{
@@ -244,3 +248,12 @@ li a{
     object-fit: contain;
 }
 
+form{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
