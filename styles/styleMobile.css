@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* upd: да, это говнокод по сути, мне стыдно, честно. меня просто вынудили заниматься вёрсткой, это должен был делать не я, но вообще весь сайт лёг на меня */
+
 body{
     background-color: black;
     font-family: 'IBM Plex Mono', sans-serif;
@@ -49,67 +49,137 @@ a{
     gap : 7.8%;
 }
 
-.containerDesc{
-    display: table;
-    justify-content: center;
-    align-items: center; 
+p{
     border: #24FF00;
     border-width: 3px;
     border-style: solid;
-    height: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-indent: 0%;
-    margin-bottom : 4vh;
+    padding: 30px;
+    font-weight: 400;
 }
 
-.desc{
-    text-align: left;
-    font-weight: 400;
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 .hidden{
     visibility: hidden;
 }
 
+.excluded{
+    display: none;
+}
+
+.imageAndDesc{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* kit-list сюда добавить */
+
+.images{
+    border: #24FF00;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 50%;
+}
+
+.imgRow{
+    display: flex;
+    justify-content:center;
+    gap: 5%;
+    object-fit: contain;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    border: #24FF00;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+input{
+    border-color: #24FF00;
+    width: 30%;
+}
+
+input[type="radio"]{
+    width: initial;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+textarea{
+    border-color: #24FF00;
+    width: 30%;
+}
+
 /* stalker*/
+
+article{
+    display: flex;
+    justify-content: space-around;
+   border: #24FF00;
+    border-width: 3px;
+    border-style: solid;
+    padding: 30px;
+    margin-bottom: 10%;
+}
+
+article p{
+    border-style: hidden;
+}
+    
+li a{
+    color: #24FF00;
+}
 
 .stIm{
     padding: 4%;
 }
 
-.containerDesc a{
-    color: #24FF00;
-    text-decoration: underline;
+
+.send{
+    margin-top: 2%;    
+    font-size: 1.4vw;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 700;
+    background-color: #24FF00;
+    width: auto;
 }
 
-/* уникальное */
+.send:hover{
+    opacity: 0.5;
+}
+
+.middleImage{
+    opacity: 0.2;
+}
+
+.ds{
+    margin-right: 5%;
+}
 
 .joinTeam{
-    margin-top: 5%;
-    position: relative;
-    background-color: #24FF00;
-    height : 10vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.astolfo{
-    display: none;
     position: absolute;
+    text-align: center;
     font-size: 1.8vw;
     top : 75%;
     right: 10%;
     height: auto;
     width: 20%;
+    background-color: #24FF00;
 }
 
+
 .logo{
-    width: 45%;
+    width: 14.88%;
+}
+
+.logo:hover{
+    opacity: 0.5;
 }
 
 .btng {
@@ -119,6 +189,7 @@ a{
     border-style: solid;
 }
 
+
 .btnw {
     background-color: white;
     border: #000000;
@@ -126,44 +197,46 @@ a{
     border-style: solid; 
 }
 
-.greenHUD{
 
-    margin-left: auto;            
-    margin-right: auto;
-    margin-top: -22%;
+.greenHUD{
+    position: absolute;
+    top: 25vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
 }
 
+.joinTeam{
+    font-size: 1.8vw;
+    background-color: #24FF00;
+}
 
 
 .socNetworks{
-    position: relative;
-    margin : 10%;
+    position: absolute;
+    top: 89%;             
+    right : 10%           
 }
 
-.imageLower{
-    width: 80%;
-    position: relative;
-    padding-bottom: 10%;
+.socNetworks:hover{
+    opacity: 0.5;
 }
 
-.imageLower2{
-    width: 80%;
+.containerDescUp{
+    margin-top: 4%;
+    width: 60%;
     position: relative;
-    padding: 10%;
-}
-
-
-
-.containerDescDown1{
-
     font-weight: 400;
+    font-size: 3vh;
 }
 
-.containerDescDown2{
-
-    font-weight: 400;
-}
 
 .blur{
     opacity: 0.5;
 }
+
+#needsYou{
+    display: none;
+}
+

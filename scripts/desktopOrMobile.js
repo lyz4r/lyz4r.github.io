@@ -16,7 +16,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     // для десктопа
     const styleLink1 = document.createElement('link');
     styleLink1.rel = 'stylesheet';
-    styleLink1.href = './styles/style.css';
+    styleLink1.href = './styles/styleMobile.css';
     document.head.appendChild(styleLink1);
 
 }
