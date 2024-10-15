@@ -5,7 +5,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     // для мобилки
     const mobileStyleLink1 = document.createElement('link');
     mobileStyleLink1.rel = 'stylesheet';
-    mobileStyleLink1.href = './styles/styleMobile.css';
+    mobileStyleLink1.href = './styles/style.css';
     document.head.appendChild(mobileStyleLink1);
 
 

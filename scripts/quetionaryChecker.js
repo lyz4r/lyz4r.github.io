@@ -18,7 +18,7 @@ document.getElementById("formElem").addEventListener("submit", function (e) {
     console.log(Object.fromEntries(formData));
 
     emailjs.init({
-        publicKey: 'BLpflIvrecPuO8xmP',
+        publicKey: 'BLpflIvrecPuO8xmP', // pls don't steal it, or I gonna cry
         limitRate: {
           // Set the limit rate for the application
           id: 'app',
